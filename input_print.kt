@@ -6,9 +6,9 @@ import java.util.Scanner
 fun main() {  
     //set the scanner
     val read = Scanner(System.`in`)  
-    println("Enter your age")
+    println("Enter any Number : ")
     
     //get the input enterded by user
-    var age = read.nextInt()  
-    println("Your input age is "+age)  
+    var num = read.nextInt()  
+    println("Your entered Number is "+num)  
 }  
